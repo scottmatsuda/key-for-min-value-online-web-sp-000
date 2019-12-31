@@ -7,7 +7,7 @@ def key_for_min_value(name_hash)
   end
   initial = array[0]
   array.each do |value|
-    if value > initial
+    if value < initial
       intial = value
     end
   end
