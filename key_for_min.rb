@@ -8,5 +8,10 @@ def key_for_min_value(name_hash)
   initial = array[0]
   counter = 0
   while counter < array.length
-    
+    if array[counter] < initial
+      initial = array[counter]
+    end
+    counter += 1
+  end
+  p initial
 end
