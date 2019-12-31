@@ -13,6 +13,6 @@ def key_for_min_value(name_hash)
     end
     counter += 1
   end
-  key_array = name_hash.select{|key, hash| hash[key] == initial }
+  name_hash.find{|key,value| value[key] == initial}.first
   
 end
