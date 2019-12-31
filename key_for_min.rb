@@ -13,5 +13,6 @@ def key_for_min_value(name_hash)
     end
     counter += 1
   end
-  return name_hash[key] == initial
+  name_hash[:key] == initial
+  return :key
 end
