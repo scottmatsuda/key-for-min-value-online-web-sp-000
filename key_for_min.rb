@@ -13,6 +13,5 @@ def key_for_min_value(name_hash)
     end
     counter += 1
   end
-  name_hash.find{|key,value| value[:key] == initial}.first
-  
+  return name_hash[:key] == initial
 end
